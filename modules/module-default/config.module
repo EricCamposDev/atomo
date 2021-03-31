@@ -1,0 +1,7 @@
+title=Atomo Framework - modulo padrão
+name=module-default
+version=2.0.0
+app=app-default
+use_session=0
+default_view=welcome
+view_not_found=404

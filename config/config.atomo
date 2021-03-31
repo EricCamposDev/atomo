@@ -1,0 +1,12 @@
+install=1
+folder=/teste
+listen=80
+debug=0
+version=1.0.0
+engine_db=pdo-mysql
+protocol=http
+login_access_status=0
+login_access_name=user
+login_access_module=
+login_access_view=
+default_module=module-default

@@ -1,0 +1,80 @@
+{
+	"bootstrap": {
+		"css": [
+			"public/bootstrap-4.5.3-dist/css/bootstrap.min.css",
+			"public/bootstrap-4.5.3-dist/css/bootstrap.min.css.map"
+		],
+		"js": [
+			"https://code.jquery.com/jquery-3.5.1.slim.min.js",
+			"https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js",
+			"public/bootstrap-4.5.3-dist/js/bootstrap.bundle.min.js",
+			"public/bootstrap-4.5.3-dist/js/bootstrap.min.js"
+		]
+	},
+	"atlantis-auth": {
+		"css": [
+			"public/atlantis/assets/css/bootstrap.min.css",
+			"public/atlantis/assets/css/atlantis.css"
+		],
+		"js": [
+			"public/atlantis/assets/js/core/jquery.3.2.1.min.js",
+			"public/atlantis/assets/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js",
+			"public/atlantis/assets/js/core/popper.min.js",
+			"public/atlantis/assets/js/core/bootstrap.min.js",
+			"public/atlantis/assets/js/atlantis.min.js",
+			"https://kit.fontawesome.com/c2f9e8ac52.js",
+			"public/atlantis/assets/js/plugin/sweetalert/sweetalert.min.js"
+		]
+	},
+	"atlantis-base": {
+		"css": [
+			"public/atlantis/assets/css/bootstrap.min.css",
+			"public/atlantis/assets/css/atlantis.css"
+		],
+		"js": [
+			"public/atlantis/assets/js/core/jquery.3.2.1.min.js",
+			"public/atlantis/assets/js/core/popper.min.js",
+			"public/atlantis/assets/js/core/bootstrap.min.js",
+			"public/atlantis/assets/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js",
+			"public/atlantis/assets/js/plugin/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js",
+			"public/atlantis/assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js",
+			"public/atlantis/assets/js/plugin/moment/moment.min.js",
+			"public/atlantis/assets/js/plugin/bootstrap-toggle/bootstrap-toggle.min.js",
+			"public/atlantis/assets/js/plugin/select2/select2.full.min.js",
+			"public/atlantis/assets/js/plugin/sweetalert/sweetalert.min.js",
+			"https://code.iconify.design/1/1.0.7/iconify.min.js",
+			"https://kit.fontawesome.com/c2f9e8ac52.js",
+			"public/atlantis/assets/js/atlantis.min.js",
+			"public/atlantis/assets/js/validate-script.js",
+			"https://cdnjs.cloudflare.com/ajax/libs/jquery-maskmoney/3.0.2/jquery.maskMoney.min.js"
+		]
+	},
+	"atlantis-docs": {
+		"css": [
+			"public/atlantis/assets/css/bootstrap.min.css",
+			"public/atlantis/assets/css/atlantis2.css"
+		],
+		"js": [
+			"public/atlantis/assets/js/core/jquery.3.2.1.min.js",
+			"public/atlantis/assets/js/core/popper.min.js",
+			"public/atlantis/assets/js/core/bootstrap.min.js",
+			"public/atlantis/assets/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js",
+			"public/atlantis/assets/js/plugin/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js",
+			"public/atlantis/assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js",
+			"public/atlantis/assets/js/plugin/moment/moment.min.js",
+			"public/atlantis/assets/js/plugin/bootstrap-toggle/bootstrap-toggle.min.js",
+			"public/atlantis/assets/js/plugin/select2/select2.full.min.js",
+			"public/atlantis/assets/js/plugin/sweetalert/sweetalert.min.js",
+			"https://code.iconify.design/1/1.0.7/iconify.min.js",
+			"https://kit.fontawesome.com/c2f9e8ac52.js",
+			"public/atlantis/assets/js/atlantis.min.js",
+			"public/atlantis/assets/js/validate-script.js"
+		]
+	},
+	"datatable": {
+		"css": [],
+		"js": [
+			"public/atlantis/assets/js/plugin/datatables/datatables.min.js"
+		]
+	}
+}

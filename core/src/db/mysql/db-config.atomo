@@ -1,0 +1,4 @@
+dbhost=localhost
+dbname=DOSECERTAECOSISTEMA
+dbuser=root
+dbpass=@dosecerta
