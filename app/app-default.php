@@ -9,22 +9,17 @@
 		<meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
 		<link rel="icon" href="<?=$template->index(); ?>/public/atlantis/assets/img/icon.ico" type="image/x-icon"/>
 		<?php
+			# load css
 			$template->css();
-		?>
-		<?php
+			# load js
 			$template->js();
 		?>
 	</head>
 	<body>
-		<div class="wrapper">
-					
-			<?php
-				# call module view's
-				$template->invokeView(); 
-			?>
-			
-		</div>
-		
+		<?php
+			# call module view's
+			$template->invokeView(); 
+		?>
 	</body>
 </html>
 

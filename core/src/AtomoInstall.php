@@ -4,6 +4,8 @@
 	class AtomoInstall
 	{
 		private $config;
+		private $dbsql;
+		private $pathDBsql;
 		private $pathConfig;
 		private $pathModules;
 
@@ -11,6 +13,7 @@
 		{
 			$this->pathConfig = dirname(dirname(__DIR__)) . "/config/config.atomo";
 			$this->pathModules = dirname(dirname(__DIR__)) . "/modules/";
+			$this->pathDBsql = dirname(dirname(__DIR__)) . "/core/src/db/mysql/db-config.atomo";
 		}
 
 		public function config()
@@ -21,6 +24,14 @@
 			$this->config->folder = str_replace("/", "", $this->config->folder);
 
 			return $this->config;
+		}
+
+		public function dbConfig()
+		{
+			# obtendo configuração de banco
+			$this->dbsql = Scan::configAtom($this->pathDBsql);
+
+			return $this->dbsql;
 		}
 
 		public function modules(){
