@@ -24,10 +24,12 @@
 					
 					$defaultApp = file_get_contents(dirname(__DIR__)."/app/app-default.php");
 
+					# removendo whitespace
+					$_POST["name"] = str_replace(" ", "-", trim($_POST["name"]));
+
 					# verificando se ja existe algum app com o msm nome
 					$pathNewApp = dirname(__DIR__)."/app/".$_POST["name"].".php";
 					if( !file_exists($pathNewApp) ){
-
 
 						$handle = fopen($pathNewApp, "a+");
 						fwrite($handle, $defaultApp);
@@ -42,7 +44,7 @@
 					}else{
 						echo false;
 					}
-					
+
 				}else{
 					echo false;
 				}
@@ -63,6 +65,10 @@
 				}else{
 					echo false;
 				}
+			break;
+
+			case "install":
+				print_r($_POST);
 			break;
 		}
 
